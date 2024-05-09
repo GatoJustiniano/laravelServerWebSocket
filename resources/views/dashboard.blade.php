@@ -12,6 +12,9 @@
                     {{ __("You're logged in!") }}
                 </div>
             </div>
+            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg mt-3">
+                Hola mundo
+            </div>
         </div>
     </div>
 </x-app-layout>
