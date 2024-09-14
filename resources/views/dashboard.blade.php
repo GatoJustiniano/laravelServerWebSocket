@@ -13,7 +13,8 @@
                 </div>
             </div>
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg mt-3">
-                Hola mundo
+                DATOS:
+                <p>La fecha y hora actual es: {{ \Carbon\Carbon::now()->format('d/m/Y H:i:s') }}</p>
             </div>
         </div>
     </div>
